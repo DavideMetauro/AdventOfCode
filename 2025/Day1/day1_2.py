@@ -18,7 +18,7 @@ with open('input_day1.txt', 'r') as file:
         #mul is how many times we crossed 100, so 0
         mul=abs(res)//100
         n=res%100
-        #check if we landed on 0 without crossing it (we already counted crossing it)
+        #check if we landed on 0 without crossing it 
         if n==0 and not abs(res)//100>0:
             c+=1
         c+=mul
