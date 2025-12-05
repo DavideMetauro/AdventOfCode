@@ -1,3 +1,6 @@
+# this is a variant of day3_2 that generalizes the logic into a function
+# allowing it to be used for both part 1 and part 2 by changing the length 
+# of the number to be formed
 def maxjolt(lines, n):
     c=0
     for line in lines:
