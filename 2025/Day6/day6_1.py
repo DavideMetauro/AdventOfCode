@@ -13,6 +13,7 @@ operands = []
 for op in lines[-1].split():
     operands.append(op)
 
+# Calculate the result 
 count=0
 for col, op in zip(columns, operands):
     if op == '+':
